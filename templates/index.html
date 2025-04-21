@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSV ➜ PDF 匯出工具</title>
+</head>
+<body>
+    <h2>CSV ➜ A4 PDF 匯出工具</h2>
+    <form action="/export" method="POST" enctype="multipart/form-data">
+        <label>選擇 CSV 檔案：</label><br>
+        <input type="file" name="csvFile" required><br><br>
+
+        <label>PDF 檔名：</label><br>
+        <input type="text" name="pdfName" placeholder="輸入檔名，不需加 .pdf" required><br><br>
+
+        <input type="submit" value="匯出 PDF">
+    </form>
+</body>
+</html>

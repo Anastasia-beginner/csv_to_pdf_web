@@ -3,7 +3,5 @@ services:
     name: csv-to-pdf-web
     env: python
     buildCommand: ""
-    startCommand: "python app.py"
-    envVars:
-      - key: FLASK_ENV
-        value: production
+    startCommand: gunicorn app:app
+

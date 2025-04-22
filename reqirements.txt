@@ -1,4 +1,0 @@
-flask
-pandas
-fpdf2
-gunicorn

@@ -1,7 +1,5 @@
-services:
-  - type: web
-    name: csv-to-pdf-web
-    env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
-
+type: web
+name: csv-to-pdf-web
+env: python
+buildCommand: ""
+startCommand: gunicorn app:app
